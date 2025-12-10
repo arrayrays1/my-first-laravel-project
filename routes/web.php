@@ -18,7 +18,7 @@ Route::get('/contact', function () {
     return Inertia::render('contactUs');
 });
 
-// 4. Products Page (Sending data!)
+// 4. Products Page (sends data)
 Route::get('/products', function () {
     return Inertia::render('products', [
         'products' => [
